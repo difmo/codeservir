@@ -1,0 +1,86 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.domain-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+.subtitle {
+  font-size: 3rem;
+  color: gray;
+}
+
+.description {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.buy-now-btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-now-btn:hover {
+  background-color: #e65c00;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+.contact-item i {
+  font-size: 1.2rem;
+  color: #ff6600;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .domain-title {
+    font-size: 2rem;
+  }
+
+  .content-wrapper {
+    padding: 20px;
+  }
+
+  .buy-now-btn {
+    font-size:1rem;
+    padding: 10px 20px;
+  }
+}
